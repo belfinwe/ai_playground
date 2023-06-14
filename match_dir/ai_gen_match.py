@@ -51,7 +51,7 @@ print(process_data({"key": "value"}))  # Output: Invalid data
 
 # My own tests
 print(process_data((2, "world", "class")))  # Output: Invalid
-print(process_data((2, 3, 4)))  # Output: Invalid
+print(process_data((2, 3, 4)))  # Output: List
 print(process_data([2, 3, 4]))  # Output: List
 
 
@@ -100,8 +100,8 @@ def process_input(data: str) -> str:
 
 print(process_input("Hello"))  # Output: Input: Hello
 print(process_input(42))  # Output: Invalid data type
-
 """
+
 # 5. Simplified control flow
 """
 Simplified control flow: 
